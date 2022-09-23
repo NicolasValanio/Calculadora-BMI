@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    background-color: rgb(8, 103, 136);
+    width: 100%;
+}
+p{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+} 
+h1{
+    text-align: center;
+    color: rgb(221, 28, 26);
+    font-weight: bold;
+    font-family:fantasy;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+.container{
+    margin: auto;
+    width: 70%;
+    height: 50%;
+    border: rgb(0, 0, 0) solid 1px;
+    background-color: rgb(255, 241, 208);
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr) ;
+}
+.title{
+    display: grid;
+    grid-column: 1/3;
+    margin-top: 15px;
+}
+.parte-1{
+    text-align: center;
+    margin-top: -150px;
+}
+.kilos,.metros{
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 180px;
+}
+.buttons{
+    display: block;
+}
+:hover button{
+  cursor: pointer;
+}
+button{
+    width: 173px;
+    height: 40px;
+    margin-top: 30px;
+}
+.calcular{
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.reiniciar{
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.parte-2{
+    margin: auto;
+    margin-top: -150px;
+
+}
+.IMC{
+    width: 110px;
+    height: 50px;
+    border: solid 1px;
+    justify-items: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.img{
+    width: 100%;
+    height: 300px;
+    background-image: url(./imagen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

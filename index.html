@@ -5,8 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medidos BMI</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <div class="container">
+        <h1 class="title">CALCULADORA DE IMC</h1>
+
+        <div class="parte-1">
+            <p class="peso">Peso</p>
+            <input class="kilos" type="text" id="kilos" >
+            <p class="altura">Altura</p>
+            <input type="text" class="metros" id="metros" >
+            <div class="buttons">
+                <button class="calcular" id="boton-1" onclick="imc()">CALCULAR</button> <br>
+                <button class="reiniciar" id="boton-2" onclick="reiniciar()">REINICIAR</button>
+            </div>
+           
+        </div>
+
+        <div class="parte-2">
+            <p class="intro">SU IMC (Indice de Masa Corporal) es:</p>
+            <div class="IMC" id="imc"></div>
+            <div class="img"></div>
+        </div>
+    </div>
+
+
+    <footer>
+        <h3>Desarrollado por: Nicolas Valenzuela😎✌️ <br> Talento COEX 2022⚡</h3>
+    </footer>
+
+
+
+
+<script src="main.js"></script>
 </body>
 </html>
